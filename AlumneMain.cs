@@ -48,12 +48,20 @@ public class AlumneMain {
 
                 }
 
-
                 break;
 
             case "3";
 
+            Console.WriteLine("Llista de alumnes");
 
+                for(Alumne x : alu){
+                    x.getNom();
+                    x.getCognom();
+                    x.getNIF();
+                    x.getCicle_Formatiu();
+                    x.getNIF();
+
+                }
 
 
                 break;

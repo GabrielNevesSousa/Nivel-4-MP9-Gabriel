@@ -55,7 +55,7 @@ public class Alumne{
 	}
     
     public String toString(){
-        return this.nom, this.Cognom, this.NIF, this.Cicle_Formatiu, this.Curs
+        return this.nom + this.Cognom + this.NIF + this.Cicle_Formatiu + this.Curs;
     }
 
     public boolean equals(Alum){
