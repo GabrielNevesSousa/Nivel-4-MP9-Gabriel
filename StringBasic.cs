@@ -93,6 +93,13 @@ public class StringBasic{
     }
 
     public String Sustituicion(String Cadena){
+
+        String sustituto = "*";
+
+        for (int i = 0; i < Cadena.length; i++){
+            sustituto = sustituto.Replace(Cadena[i]);
+            
+        }
         
 
 
